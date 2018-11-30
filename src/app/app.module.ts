@@ -6,6 +6,8 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
+import { MenuPage } from '../pages/menu/menu';
+import { AccountPage } from '../pages/account/account';
 import { TabsPage } from '../pages/tabs/tabs';
 import { DealsPage } from '../pages/deals/deals'
 import { RecommendPage } from '../pages/recommend/recommend'
@@ -23,7 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     DealsPage,
     RecommendPage,
-    DealsDetailPage
+    DealsDetailPage,
+    MenuPage,
+    AccountPage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     DealsPage,
     RecommendPage,
-    DealsDetailPage
+    DealsDetailPage,
+    MenuPage,
+    AccountPage
   ],
   providers: [
     StatusBar,
